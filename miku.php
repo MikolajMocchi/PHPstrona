@@ -96,7 +96,8 @@ if (isset($_POST['insert'])){
         mysqli_query($conn, $sql);
         echo "dodano";
     }
-
+?>
+<?php
 
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
         
